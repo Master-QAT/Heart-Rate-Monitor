@@ -1,0 +1,39 @@
+📌 Project Title:
+Smart Health Monitoring System with Alert Mechanism (Simulated using Potentiometer)
+________________________________________
+🧾 Description of the Project:
+This project is a microcontroller-based health monitoring system that simulates the detection of heart rate and oxygen saturation (SpO₂) levels using a potentiometer in place of the MAX30100 pulse oximeter sensor. It uses an ESP32 as the core processor, which reads analog values from the potentiometer, interprets them as vital health parameters, and displays them on an OLED screen. The system also includes a buzzer, red and green LEDs, and a push button for alerts and user control.
+When the simulated health readings fall outside safe thresholds, the red LED lights up and the buzzer sounds an alert. Conversely, when the readings are within normal range, a green LED lights up. The push button allows the user to reset the alert manually. This system is ideal for learning how to build and prototype basic IoT-based health systems.
+________________________________________
+🛠️ Functions:
+•	Continuously monitors simulated health data (via potentiometer)
+•	Displays readings on a compact OLED screen
+•	Triggers alerts using a red LED and buzzer when simulated vitals are abnormal
+•	Confirms healthy readings with a green LED
+•	Allows manual reset of alert condition via push button
+________________________________________
+🌍 Applications:
+•	Health education kits for students and beginners
+•	Prototyping IoT healthcare devices
+•	Used in simulations where real sensors are unavailable
+•	Foundation for wearable medical monitoring systems
+•	Basis for telemedicine systems with future IoT integration
+________________________________________
+🔩 List of Components with Explanation of Their Functions:
+1.	ESP32 Microcontroller Board
+o	Acts as the central processing unit. It reads analog input from the potentiometer, interprets it as health data, drives the OLED display, and manages the LED and buzzer alerts. Also offers Wi-Fi capability for potential IoT upgrades.
+2.	Potentiometer Placeholder //  MAX30100
+o	Simulates sensor values. Rotating the knob changes resistance, which the ESP32 reads as analog voltage, representing either heart rate or SpO₂ readings.
+3.	0.96" I2C OLED Display (SSD1306)
+o	Displays the simulated heart rate and SpO₂ readings in real-time, providing a clear visual output of the system’s operation.
+4.	Red LED
+o	Lights up when the simulated health readings cross critical thresholds, serving as a visual warning indicator.
+5.	Green LED
+o	Lights up when the readings are within safe and healthy ranges.
+6.	Buzzer (Active Type)
+o	Sounds an audible alert whenever abnormal readings are detected, enhancing the warning system.
+7.	Push Button
+o	Allows manual user interaction. Pressing the button resets the alert system and can stop the buzzer.
+8.	Breadboard and Jumper Wires
+o	Used for prototyping. Allows easy, solderless connections between the ESP32 and other components.
+
