@@ -1,43 +1,70 @@
-# Heart-Rate-Monitor
-A smart health monitoring system using ESP32 + MAX30100 sensor with OLED display and buzzer alerts. Built for wearable health applications by Master QAT
-# Heart Rate Monitoring System with ESP32 & MAX30100
+# Heart Rate Monitoring System with ESP32
 
-#link to project
-https://wokwi.com/projects/460302863710109697
+**Project by Master QAT (Qasim Aisha)**  
+SSS3 Student | AI & Robotics Enthusiast, ijebu-ode Nigeria
 
-## Short Description  
-This project is a heart rate monitoring system built with an **ESP32** and the **MAX30100 pulse oximeter sensor**.  
-It measures heart rate in real time and provides visual/audio feedback using an OLED display and a buzzer.  
-The system can be used for basic health tracking and wearable tech applications.  
+A low-cost wearable prototype for real-time heart rate monitoring. Built to develop **mechatronics** and embedded systems skills for health applications and assistive robotics.
 
-## Features  
-- Real-time heart rate measurement using MAX30100.  
-- Displays heart rate on an OLED screen.  
-- Adjustable sensitivity using a potentiometer.  
-- Buzzer alert with tone when abnormal readings are detected.  
-- Portable and low-power, ideal for wearable health monitoring.  
+### Features
+- Real-time BPM calculation using simulated pulse signal
+- OLED display showing live readings
+- Visual alerts: Green LED (normal), Red LED (abnormal)
+- Buzzer for audio warning
+- Adjustable threshold using potentiometer
 
-## Components Used  
-### Hardware  
-- **ESP32** – Microcontroller for processing and connectivity.  
-- **MAX30100 Sensor** – Pulse oximeter for heart rate detection.  
-- **OLED Display (SSD1306)** – Shows real-time heart rate readings.  
-- **Buzzer** – Provides tone alerts for warnings.  
-- **Potentiometer** – Adjusts sensitivity or threshold levels.  
-- **Jumper wires & breadboard** – For circuit connections.  
+### Components (Real Hardware)
+- ESP32 microcontroller
+- MAX30100 Pulse Oximeter sensor (real design)
+- OLED Display (SSD1306)
+- Red & Green LEDs
+- Buzzer
+- Potentiometer
 
-### Software  
-- **Arduino IDE** – Programming environment.  
-- **ESP32 Board Package** – For compiling and uploading code to ESP32.  
-- **MAX30100 Library** – Sensor data processing.  
-- **Adafruit SSD1306 & GFX Libraries** – For OLED display control.  
+**Note**: In the Wokwi simulation, a potentiometer is used to simulate the pulse signal because the MAX30100 sensor component is not available in the free version of Wokwi. The actual hardware version uses the real MAX30100 sensor (see circuit diagram below).
 
-##  How It Works  
-1. The MAX30100 sensor detects the user’s heart rate via fingertip measurement.  
-2. The ESP32 reads and processes the sensor data.  
-3. The heart rate value is displayed on the OLED screen.  
-4. The buzzer generates a tone when readings exceed set thresholds.  
-5. The potentiometer lets the user adjust sensitivity for testing.  
+### Wokwi Simulation (Interactive)
+🔗 **Live Simulation**: [https://wokwi.com/projects/460302863710109697](https://wokwi.com/projects/460302863710109697)
 
-## Author  
-**Master QAT** – *Student | AI & Robotics Enthusiast | Future Robotics Engineer 🚀*  
+### Visuals
+
+![Abnormal Reading](abnormal-simulation.png)  
+*Red LED and Buzzer turn ON when reading is abnormal*
+
+![Normal Reading](normal-simulation.png)  
+*Green LED turns ON when reading is normal*
+
+![Real Components Wiring](real-components.png)  
+*Circuit diagram with actual MAX30100 sensor and components*
+
+### Challenges Faced
+- Noisy or unstable readings when simulating pulse signal
+- Tuning the threshold to avoid false alerts
+- Managing display flicker and timing in the loop
+- Difference between simulation (potentiometer) and real MAX30100 sensor behavior
+
+### What I Learned
+- How to read analog signals and detect beats on ESP32
+- Basic real-time embedded programming and alert systems
+- Importance of simulation tools like Wokwi for rapid testing
+- The gap between simulated and real hardware (sensor noise, calibration)
+
+### Connection to Physical AI & Future Goals
+Inspired by **NVIDIA GTC 2026** and the **Physical AI** wave (GR00T, Isaac Lab, Cosmos), I want to evolve this project into smarter systems.  
+Future ideas:
+- Use **Isaac Lab** simulation to test wearables on moving bodies
+- Generate synthetic data with **Cosmos** to improve accuracy in real conditions
+- Combine with Smart Gloves or Muscle EMG projects for intelligent assistive robotics and prosthetics
+
+This project is part of my preparation for **Robotics / Mechatronics** at KAIST.
+
+### Code
+Main code: `heart-rate-monitor.ino`  
+Real MAX30100 version code is also included in the repository.
+
+### Author
+**Master QAT (Qasim Aisha)**  
+SSS3 Student preparing for WAEC  
+Aspiring KAIST Robotics/Mechatronics Student  
+ijebu-ode, Nigeria
+
+**Topics**: esp32, heart-rate-monitor, wearable, mechatronics, physical-ai, student-project
