@@ -27,7 +27,7 @@ A low-cost wearable prototype for real-time heart rate monitoring. Built to deve
 
 ### Visuals
 
-![Abnormal Reading](abnormal-simulation.png)  
+![Abnormal Reading](Abnormal Simulation.png)  
 *Red LED and Buzzer turn ON when reading is abnormal*
 
 ![Normal Reading](normal-simulation.png)  
