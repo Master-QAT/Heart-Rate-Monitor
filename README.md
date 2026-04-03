@@ -2,6 +2,9 @@
 A smart health monitoring system using ESP32 + MAX30100 sensor with OLED display and buzzer alerts. Built for wearable health applications by Master QAT
 # Heart Rate Monitoring System with ESP32 & MAX30100
 
+#link to project
+https://wokwi.com/projects/460302863710109697
+
 ## Short Description  
 This project is a heart rate monitoring system built with an **ESP32** and the **MAX30100 pulse oximeter sensor**.  
 It measures heart rate in real time and provides visual/audio feedback using an OLED display and a buzzer.  
