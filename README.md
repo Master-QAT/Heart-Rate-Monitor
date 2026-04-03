@@ -27,7 +27,7 @@ A low-cost wearable prototype for real-time heart rate monitoring. Built to deve
 
 ### Visuals
 
-![Abnormal Reading](Abnormal Simulation.png)  
+![Abnormal Reading](AbnormalReadinds.png)  
 *Red LED and Buzzer turn ON when reading is abnormal*
 
 ![Normal Reading](normal-simulation.png)  
@@ -59,7 +59,7 @@ This project is part of my preparation for **Robotics / Mechatronics** at KAIST.
 
 ### Code
 Main code: `heart-rate-monitor.ino`  
-Real MAX30100 version code is also included in the repository.
+Real MAX30100 version code is also included in the repository MAX#0100.cpp.
 
 ### Author
 **Master QAT (Qasim Aisha)**  
