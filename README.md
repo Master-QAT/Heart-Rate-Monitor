@@ -27,13 +27,13 @@ A low-cost wearable prototype for real-time heart rate monitoring. Built to deve
 
 ### Visuals
 
-![Abnormal Reading](AbnormalReadinds.png)  
+![Abnormal Reading](abnormal.png)  
 *Red LED and Buzzer turn ON when reading is abnormal*
 
-![Normal Reading](normal-simulation.png)  
+![Normal Reading](normal.png)  
 *Green LED turns ON when reading is normal*
 
-![Real Components Wiring](real-components.png)  
+![Real Components Wiring](real-circuit.png)  
 *Circuit diagram with actual MAX30100 sensor and components*
 
 ### Challenges Faced
