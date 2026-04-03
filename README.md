@@ -59,7 +59,7 @@ This project is part of my preparation for **Robotics / Mechatronics** at KAIST.
 
 ### Code
 Main code: `heart-rate-monitor.ino`  
-Real MAX30100 version code is also included in the repository MAX30100.cpp.
+Real MAX30100 version code is also included in the repository MAX30100.cpp .
 
 ### Author
 **Master QAT (Qasim Aisha)**  
