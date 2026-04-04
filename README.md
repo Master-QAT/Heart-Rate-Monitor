@@ -1,5 +1,12 @@
 # Heart Rate Monitoring System with ESP32
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Arduino IDE Compatible](https://img.shields.io/badge/Arduino%20IDE-Compatible-brightgreen)](https://www.arduino.cc/)
+[![ESP32 Ready](https://img.shields.io/badge/ESP32-Ready-blue)](https://www.espressif.com/en/products/socs/esp32)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+
+# Heart Rate Monitoring System with ESP32
+
 **Project by Master QAT (Qasim Aisha)**  
 SSS3 Student | AI & Robotics Enthusiast, ijebu-ode Nigeria
 
@@ -21,6 +28,45 @@ A low-cost wearable prototype for real-time heart rate monitoring. Built to deve
 - Potentiometer
 
 **Note**: In the Wokwi simulation, a potentiometer is used to simulate the pulse signal because the MAX30100 sensor component is not available in the free version of Wokwi. The actual hardware version uses the real MAX30100 sensor (see circuit diagram below).
+
+## ⚡ Quick Start (5 minutes)
+
+### Requirements
+- ESP32 microcontroller
+- MAX30100 sensor
+- OLED display (SSD1306)
+- Arduino IDE with ESP32 board support
+
+### Setup
+1. **Install Libraries** (Tools → Manage Libraries in Arduino IDE):
+Adafruit_SSD1306 Adafruit_GFX MAX30100_PulseOximeter
+
+Code
+
+2. **Clone & Open**:
+```bash
+git clone https://github.com/Master-QAT/Heart-Rate-Monitor.git
+Open src/heart-rate-monitor/heart-rate-monitor.ino in Arduino IDE
+
+Upload:
+
+Connect ESP32 via USB
+Tools → Board → ESP32 Dev Module
+Tools → Port → Select your COM port
+Click Upload (Ctrl+U)
+Test:
+
+Open Tools → Serial Monitor (115200 baud)
+Place finger on MAX30100 sensor
+See readings on OLED display
+Watch Serial Monitor for debug output
+Documentation
+Setup Guide - Detailed wiring & troubleshooting
+BOM - Complete parts list ($35-55)
+Calibration - Sensor accuracy tuning
+Safety Info - Medical disclaimer
+Live Simulation
+Test without hardware: Wokwi Simulation
 
 ### Wokwi Simulation (Interactive)
 🔗 **Live Simulation**: [https://wokwi.com/projects/460302863710109697](https://wokwi.com/projects/460302863710109697)
