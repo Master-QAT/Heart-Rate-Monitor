@@ -56,6 +56,43 @@ Future ideas:
 - Combine with Smart Gloves or Muscle EMG projects for intelligent assistive robotics and prosthetics
 
 This project is part of my preparation for **Robotics / Mechatronics** at KAIST.
+## 🎓 Why This Project Matters for KAIST
+
+This Heart Rate Monitor demonstrates core competencies required for KAIST's **Robotics & Mechatronics** program:
+
+### **Embedded Systems Mastery**
+- Real-time sensor data processing (ESP32, I2C protocol)
+- Hardware-software integration (MAX30100 → ESP32 → OLED)
+- Low-power design for wearable applications
+- Multi-sensor data fusion (future: EMG + gyroscope + accelerometer)
+
+### **Physical AI & Robotics Foundation**
+- Wearable health monitoring for assistive robotics
+- Foundation for **Isaac Lab** simulation of body-worn sensors
+- Path toward intelligent prosthetics & exoskeletons
+- Biomedical signal processing skills
+
+### **Professional Engineering Practices**
+- Production-quality code with comprehensive documentation
+- Safety & ethical considerations documented (medical device disclaimer)
+- Open-source contribution standards (MIT license, CONTRIBUTING.md)
+- Hardware design & circuit understanding
+
+### **Scalability for Advanced Projects**
+This is **Phase 1** of a 3-phase progression:
+1. ✅ **Phase 1 (NOW):** Single sensor health monitoring
+2. **Phase 2 (Next):** Multi-sensor wearable system (Blood O₂, EMG, Accelerometer)
+3. **Phase 3 (Future):** AI-powered assistive robotics using NVIDIA Isaac Lab
+
+---
+
+## 📚 Related Projects in Development
+- **Blood Oxygen Monitor** - MAX30100 advanced integration
+- **Smart Gloves** - Gesture recognition for sign language
+- **Muscle EMG Sensor** - Prosthetic control interface
+- **Fall Detection System** - Real-time alert system for elderly care
+
+This represents my foundational work toward KAIST's robotics/mechatronics research.
 
 ### Code
 Main code: `heart-rate-monitor.ino`  
