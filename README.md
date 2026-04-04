@@ -34,6 +34,7 @@ src/config.h	Centralized configuration
 web-dashboard/	Node.js dashboard with Chart.js
 docs/	Setup, BOM, Calibration, Safety
 hardware/	Circuit diagrams and output images
+
 🎯 Features
 ✅ Real-time heart rate (50-130 BPM) and SpO2 (85-100%) monitoring
 ✅ OLED display with instant visual feedback
@@ -58,6 +59,7 @@ Oxygen Saturation (SpO2 %)
 Status indicator (Normal/Abnormal)
 60-second historical chart
 Professional responsive UI
+
 🎓 Application to KAIST
 This project demonstrates the technical foundation required for KAIST's Robotics & Mechatronics program:
 
