@@ -1,0 +1,30 @@
+# Arduino/PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.o
+*.a
+*.so
+.DS_Store
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+build/
+dist/
+*.elf
+*.hex
+
+# Dependencies
+node_modules/
+venv/
+.env
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
