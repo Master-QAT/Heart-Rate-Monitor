@@ -77,6 +77,7 @@ Bill of Materials - Complete parts list with costs
 Calibration - Sensor accuracy tuning
 Safety & Disclaimer - Medical disclaimer & important notices
 Contributing - How to contribute
+
 ⚠️ Safety Notice
 This is NOT a medical device. It is an educational prototype for learning embedded systems. Do not use for medical diagnosis or patient monitoring. See SAFETY.md for details.
 
@@ -89,6 +90,7 @@ Backend	Node.js + Express
 Frontend	HTML5 + CSS3 + Chart.js
 Communication	WebSocket (real-time)
 Simulation	Wokwi
+
 📁 Project Structure
 Code
 Heart-Rate-Monitor/
@@ -110,6 +112,7 @@ Heart-Rate-Monitor/
 │   ├── normal.png
 │   └── real-circuit.png
 └── README.md
+
 🔄 Development Roadmap
 Phase	Focus	Status
 Phase 1	Single-sensor health monitoring	✅ Complete
