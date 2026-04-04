@@ -73,7 +73,7 @@ Test without hardware: Wokwi Simulation
 
 ### Visuals
 
-![Abnormal Reading](abnormal.png)  
+![Abnormal Reading](/hardware/abnormal.png)  
 *Red LED and Buzzer turn ON when reading is abnormal*
 
 ![Normal Reading](normal.png)  
