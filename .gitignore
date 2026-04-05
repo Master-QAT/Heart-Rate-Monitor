@@ -27,4 +27,7 @@ venv/
 # OS files
 Thumbs.db
 .AppleDouble
-.LSOverride
+.LSOverride 
+
+node_modules/
+web-dashboard/node_modules/
